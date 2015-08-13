@@ -30,7 +30,15 @@ public class Command_cleanup extends TFM_Command
         }
         else
         {
-            TFM_Util.bcastMsg(ChatColor.RED + "Cleanup failed");
+            server.dispatchCommand(sender, "opall -c");
+            server.dispatchCommand(sender, "setl");
+            server.dispatchCommand(sender, "purgeall");
+            server.dispatchCommand(sender, "ifbanlist purge");
+            server.dispatchCommand(sender, "ifipbanlist purge");
+            server.dispatchCommand(sender, "glist purge");            
+            server.dispatchCommand(sender, "tfm reload");
+            server.dispatchCommand(sender, "saconfig clean");
+            server.dispatchCommand(sender, "cc");
         }
 
         return true;

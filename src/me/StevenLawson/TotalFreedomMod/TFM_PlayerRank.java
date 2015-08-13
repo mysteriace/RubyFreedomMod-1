@@ -75,7 +75,7 @@ public enum TFM_PlayerRank
         {
             return DEVELOPER;
         }
-        if (sender.getName().equals("cowgomooo12") || sender.getName().equals("olivercricket") || sender.getName().equals("eddieusselman") || sender.getName().equals("TheBlackQuilava") || sender.getName().equals("Stampy100"))
+        if (sender.getName().equals("cowgomooo12") || sender.getName().equals("olivercricket") || sender.getName().equals("eddieusselman") || sender.getName().equals("xYurippe") || sender.getName().equals("Stampy100"))
         {
             return SYS;
         }
@@ -85,7 +85,7 @@ public enum TFM_PlayerRank
             return LEADDEV;
         }
         
-        if (sender.getName().equals("Alosion") || sender.getName().equals("MysteriAce") || sender.getName().equals("LydiaWolfle") || sender.getName().equals("triplewer"))
+        if (sender.getName().equals("Alosion") || sender.getName().equals("MysteriAce") || sender.getName().equals("LydiaWolfle") || sender.getName().equals("triplewer") || sender.getName().equals("xBadDawgx") || sender.getName().equals("camille20009"))
         {
             return EX;
         }
@@ -93,7 +93,7 @@ public enum TFM_PlayerRank
         {
             return LEADDEV;
         }
-        if (sender.getName().equals("RedEastWood") || sender.getName().equals("TaahThePenguin") || sender.getName().equals("LegendIsAwesomes") || sender.getName().equals("_xXTheOpXx_"))
+        if (sender.getName().equals("RedEastWood") || sender.getName().equals("TaahThePenguin") || sender.getName().equals("_xXTheOpXx_"))
         {
             return COOWNER;
         }

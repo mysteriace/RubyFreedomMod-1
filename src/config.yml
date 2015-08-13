@@ -21,6 +21,7 @@ server:
   owners:
     - reuben4545
     - falceso
+    - DarkGamingDronze
 
   # URL players should appeal for bans at
   ban_url: http://rubyfreedom.boards.net/
@@ -211,7 +212,7 @@ announcer:
   interval: 600
 
   # Prefix for all announcements
-  prefix: '&5[&RubyFreedom&5] &b'
+  prefix: '&5[&eRubyFreedom&5] &b'
 
   announcements:
     - 'Be sure to visit our forums at &6http://rubyfreedom.boards.net/'

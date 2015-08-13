@@ -6,7 +6,7 @@ import org.bukkit.command.CommandSender;
 import org.bukkit.entity.Player;
 
 @CommandPermissions(level=AdminLevel.SUPER, source=SourceType.BOTH)
-@CommandParameters(description="Clear your own chat", usage="/<command>", aliases="cy")
+@CommandParameters(description="Clear your own chat", usage="/<command>", aliases="pcc")
 public class Command_clearmychat extends TFM_Command
 {
   public boolean run(CommandSender sender, Player sender_p, Command cmd, String commandLabel, String[] args, boolean senderIsConsole)

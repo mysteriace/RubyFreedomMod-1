@@ -87,7 +87,7 @@ public class Command_gtfo extends TFM_Command
 
         if (reason != null)
         {
-            bcast.append(" - Reason: ").append(ChatColor.YELLOW).append(reason);
+            bcast.append(" - Reason: ").append(ChatColor.YELLOW).append(reason).append(" ").append(ChatColor.GOLD).append(sender.getName());
         }
 
         TFM_Util.bcastMsg(bcast.toString());
@@ -98,7 +98,7 @@ public class Command_gtfo extends TFM_Command
         TFM_BanManager.addUuidBan(new TFM_Ban(TFM_UuidManager.getUniqueId(player), player.getName(), sender.getName(), null, reason));
 
         // kick Player:
-        player.kickPlayer(ChatColor.RED + "GTFO" + (reason != null ? ("\nReason: " + ChatColor.YELLOW + reason) : ""));
+        player.kickPlayer(ChatColor.RED + "GTFO" + (reason != null ? ("\nReason: " + ChatColor.YELLOW + reason) : "") + ChatColor.GOLD + sender.getName());
 
         return true;
     }

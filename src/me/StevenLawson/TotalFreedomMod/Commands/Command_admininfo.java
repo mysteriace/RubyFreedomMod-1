@@ -23,3 +23,5 @@ public class Command_admininfo extends TFM_Command
         TFM_Util.playerMsg(sender_p, "wait for admin responses on your application and.", ChatColor.GREEN);
         TFM_Util.playerMsg(sender_p, "Don't ask for admins to look at the application, it will lower your chances of being accepted.", ChatColor.RED);
         return true;
+    }
+}
