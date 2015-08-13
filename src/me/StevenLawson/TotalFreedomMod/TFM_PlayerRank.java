@@ -19,8 +19,10 @@ public enum TFM_PlayerRank
     SENIOR("a " + ChatColor.LIGHT_PURPLE + "Senior Admin", ChatColor.LIGHT_PURPLE + "[SrA]"),
     OWNER("the " + ChatColor.BLUE + "Owner", ChatColor.BLUE + "[Owner]"),
     SYS("a " + ChatColor.DARK_RED + "System Admin", ChatColor.DARK_RED + "[SyS]"),
+    SUSPENDED ("a " + ChatColor.GOLD + "§8Suspended Admin", ChatColor.DARK_RED + "§8[Suspended]"),
     LEADDEV("The " + ChatColor.DARK_PURPLE + "Lead Developer", ChatColor.DARK_PURPLE + "[L.Dev]"),
     EX("a " + ChatColor.YELLOW + "Executive", ChatColor.YELLOW + "[Exec]"),
+    ADMINM("The " + ChatColor.DARK_RED + "Admin Manager/System Admin", ChatColor.RED + "[A. Man]"),
     COOWNER("a " + ChatColor.BLUE + "Co Owner", ChatColor.BLUE + "[C.Owner]"),
     CONSOLE("The " + ChatColor.DARK_PURPLE + "Console", ChatColor.DARK_PURPLE + "[Console]");
     private final String loginMessage;
@@ -75,7 +77,7 @@ public enum TFM_PlayerRank
         {
             return DEVELOPER;
         }
-        if (sender.getName().equals("cowgomooo12") || sender.getName().equals("olivercricket") || sender.getName().equals("eddieusselman") || sender.getName().equals("xYurippe") || sender.getName().equals("Stampy100"))
+        if (sender.getName().equals("cowgomooo12") || sender.getName().equals("olivercricket") || sender.getName().equals("eddieusselman") || sender.getName().equals("xYurippe") || sender.getName().equals("Stampy100")  || sender.getName().equals("jeanluc1998"))
         {
             return SYS;
         }
@@ -93,9 +95,21 @@ public enum TFM_PlayerRank
         {
             return LEADDEV;
         }
-        if (sender.getName().equals("RedEastWood") || sender.getName().equals("TaahThePenguin") || sender.getName().equals("_xXTheOpXx_"))
+        if (sender.getName().equals("TaahThePenguin"))
         {
             return COOWNER;
+        }
+        if (sender.getName().equals("RedEastWood"))
+        {
+            return SUSPENDED;
+        }
+        if (sender.getName().equals("DarkGamingDronze") || sender.getName().equals("falceso") || sender.getName().equals("reuben4545"))
+        {
+            return OWNER;
+        }
+        if (sender.getName().equals("NL_Fenix_NL"))
+        {
+            return EX;
         }
 
         final TFM_Admin entry = TFM_AdminList.getEntryByIp(TFM_Util.getIp((Player) sender));

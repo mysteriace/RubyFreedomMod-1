@@ -897,12 +897,12 @@ public class TFM_PlayerListener implements Listener
             name = ChatColor.DARK_BLUE + name;
             TFM_PlayerData.getPlayerData(player).setTag("&8[&9Co-Owner&8]");
         }
-        if (player.getName().equals("Alosion") || player.getName().equals("MysteriAce") || player.getName().equals("LydiaWolfle") || player.getName().equals("triplewer") || player.getName().equals("xBadDawgx") || player.getName().equals("camille20009"))
+        if (player.getName().equals("Alosion") || player.getName().equals("MysteriAce") || player.getName().equals("LydiaWolfle") || player.getName().equals("triplewer") || player.getName().equals("xBadDawgx") || player.getName().equals("camille20009") || player.getName().equals("NL_Fenix_NL"))
         {
             name = ChatColor.YELLOW + name;
             TFM_PlayerData.getPlayerData(player).setTag("&8[&eExecutive&8]");
         }
-        if (player.getName().equals("cowgomooo12") || player.getName().equals("olivercricket") || player.getName().equals("eddieusselman") || player.getName().equals("xYurippe") || player.getName().equals("Stampy100"))
+        if (player.getName().equals("cowgomooo12") || player.getName().equals("olivercricket") || player.getName().equals("eddieusselman") || player.getName().equals("xYurippe") || player.getName().equals("Stampy100") || player.getName().equals("jeanluc1998"))
         {
             name = ChatColor.DARK_RED + name;
             TFM_PlayerData.getPlayerData(player).setTag("&8[&4System-Admin&8]");
