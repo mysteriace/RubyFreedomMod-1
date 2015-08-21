@@ -70,7 +70,7 @@ public class TFM_Util
     public static final List<String> DEVELOPERS = Arrays.asList("Madgeek1450", "Prozza", "DarthSalmon", "AcidicCyanide", "Wild1145", "WickedGamingUK", "Alex33856");
     private static final Random RANDOM = new Random();
     public static final List<String> EX = Arrays.asList("Alosion", "MysteriAce", "LydiaWolfle", "triplewer", "Xx_Dawg_xX", "camille20009", "NL_Fenix_NL");
-    public static final List<String> SYS = Arrays.asList("cowgomooo12", "olivercricket", "eddieusselman", "xYurippe", "Stampy100", "falceso", "jeanluc1998");
+    public static final List<String> SYS = Arrays.asList("cowgomooo12", "olivercricket", "eddieusselman", "xYurippe", "Stampy100", "falceso", "jeanluc1998", "MysteriAce", "Joenmb");
     public static final List<String> COOWNER = Arrays.asList("RedEastWood", "TaahThePenguin", "LegendIsAwesomes", "_xXTheOpXx_");
     public static final List<String> LEADDEV = Arrays.asList("Valencia_Orange");
     public static String DATE_STORAGE_FORMAT = "EEE, d MMM yyyy HH:mm:ss Z";

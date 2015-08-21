@@ -11,6 +11,7 @@ import org.bukkit.entity.Player;
 public enum TFM_PlayerRank
 {
     DEVELOPER("a " + ChatColor.DARK_PURPLE + "Developer", ChatColor.DARK_PURPLE + "[Dev]"),
+    WDEVELOPER("a " + ChatColor.DARK_PURPLE + "Co Chief Web Developer", ChatColor.DARK_PURPLE + "[W. Dev]"),
     IMPOSTOR("an " + ChatColor.YELLOW + ChatColor.UNDERLINE + "Impostor", ChatColor.YELLOW.toString() + ChatColor.UNDERLINE + "[IMP]"),
     NON_OP("a " + ChatColor.GREEN + "Non-OP", ChatColor.GREEN.toString()),
     OP("an " + ChatColor.RED + "OP", ChatColor.RED + "[OP]"),
@@ -76,7 +77,7 @@ public enum TFM_PlayerRank
         {
             return DEVELOPER;
         }
-        if (sender.getName().equals("cowgomooo12") || sender.getName().equals("olivercricket") || sender.getName().equals("eddieusselman") || sender.getName().equals("xYurippe") || sender.getName().equals("Stampy100")  || sender.getName().equals("jeanluc1998"))
+        if (sender.getName().equals("cowgomooo12") || sender.getName().equals("MysteriAce") || sender.getName().equals("eddieusselman") || sender.getName().equals("xYurippe") || sender.getName().equals("Stampy100")  || sender.getName().equals("jeanluc1998"))
         {
             return SYS;
         }
@@ -85,7 +86,10 @@ public enum TFM_PlayerRank
         {
             return LEADDEV;
         }
-        
+        if (sender.getName().equals("Joenmb"))
+        {
+            return LEADDEV;
+        }
         if (sender.getName().equals("Alosion") || sender.getName().equals("LydiaWolfle") || sender.getName().equals("triplewer") || sender.getName().equals("xBadDawgx") || sender.getName().equals("camille20009"))
         {
             return EX;
