@@ -22,7 +22,6 @@ public enum TFM_PlayerRank
     SUSPENDED ("a " + ChatColor.GOLD + "§8Suspended Admin", ChatColor.DARK_RED + "§8[Suspended]"),
     LEADDEV("The " + ChatColor.DARK_PURPLE + "Lead Developer", ChatColor.DARK_PURPLE + "[L.Dev]"),
     EX("a " + ChatColor.YELLOW + "Executive", ChatColor.YELLOW + "[Exec]"),
-    ADMINM("The " + ChatColor.DARK_RED + "Admin Manager/System Admin", ChatColor.RED + "[A. Man]"),
     COOWNER("a " + ChatColor.BLUE + "Co Owner", ChatColor.BLUE + "[C.Owner]"),
     CONSOLE("The " + ChatColor.DARK_PURPLE + "Console", ChatColor.DARK_PURPLE + "[Console]");
     private final String loginMessage;
@@ -87,7 +86,7 @@ public enum TFM_PlayerRank
             return LEADDEV;
         }
         
-        if (sender.getName().equals("Alosion") || sender.getName().equals("MysteriAce") || sender.getName().equals("LydiaWolfle") || sender.getName().equals("triplewer") || sender.getName().equals("xBadDawgx") || sender.getName().equals("camille20009"))
+        if (sender.getName().equals("Alosion") || sender.getName().equals("LydiaWolfle") || sender.getName().equals("triplewer") || sender.getName().equals("xBadDawgx") || sender.getName().equals("camille20009"))
         {
             return EX;
         }
@@ -98,10 +97,6 @@ public enum TFM_PlayerRank
         if (sender.getName().equals("TaahThePenguin"))
         {
             return COOWNER;
-        }
-        if (sender.getName().equals("RedEastWood"))
-        {
-            return SUSPENDED;
         }
         if (sender.getName().equals("DarkGamingDronze") || sender.getName().equals("falceso") || sender.getName().equals("reuben4545"))
         {

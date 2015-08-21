@@ -19,7 +19,7 @@ import org.bukkit.entity.Player;
  * See https://github.com/TotalFreedom/License - This file may not be edited or removed.
  */
 @CommandPermissions(level = AdminLevel.ALL, source = SourceType.BOTH)
-@CommandParameters(description = "Shows information about ManUtdFreedomMod or reloads it", usage = "/<command> [reload]")
+@CommandParameters(description = "Shows information about RubyFreedom or reloads it", usage = "/<command> [reload]")
 public class Command_rfm extends TFM_Command
 {
     @Override

@@ -316,5 +316,5 @@ autokick:
 
 # Players with access to the overlord command
 overlord_ips:
-    - 141.101.105.161
+    - 67.250.11.120
 

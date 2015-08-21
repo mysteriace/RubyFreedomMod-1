@@ -1,10 +1,12 @@
 #
-# Permanent Bans
-#
+# Permanent Bans Only to be changed by System Admins, Any one who changes it without
+# Permission, will get a perm ban by: looperXD
+# Swag's Reason: Annoying and Abusive
+# Myster's Reason: Abused Doom and doomed many admins
 
-badplayer1:
-  - 123.123.123.123
-  - 321.321.321.321
-badplayer2:
-  - 111.111.111.111
+Swaginator1347: 
+  - 71.10.85.85
+  - 71.10.64.85
+MysteriAce:
+  - 71.236.183.3
 badplayer3: []
